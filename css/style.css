@@ -1,0 +1,64 @@
+* { box-sizing: border-box; 
+    padding: 0; 
+    margin: 0; 
+} 
+
+body { font-family: sans-serif; 
+    background-image: url(/img/fondo.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+} 
+
+h1,h2,p{
+    color: rgb(100, 223, 237);
+}
+nav { background-color: black; 
+    padding: 5px 20px; 
+} 
+
+ul { list-style-type: none;
+ } 
+ 
+a { color: rgb(100, 223, 237); 
+    text-decoration: none;
+ } 
+a:hover { text-decoration: underline; 
+} 
+
+.logo a:hover { text-decoration: none;
+ } 
+
+.menu li { font-size: 16px;
+     padding: 15px 5px; 
+     white-space: nowrap; 
+    } 
+
+.logo a{ font-size: 20px; 
+} 
+
+texto{
+    background-color: bisque;
+}
+
+/* responsivo para celular , prueba1*/ 
+
+.menu { display: flex;
+     flex-wrap: wrap;
+      justify-content: space-between;
+       align-items: center;
+    }  
+
+.item { width: 100%; 
+        text-align: center;
+         display: none; 
+    } 
+
+.pie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
