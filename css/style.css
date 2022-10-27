@@ -3,6 +3,11 @@
     margin: 0; 
 } 
 
+@media screen and (min-width:300px) and (max-width:800px) {
+    body{font-size:0.8em;}
+    sidebar{display:none;}
+    }
+
 body { font-family: sans-serif; 
     background-image: url(/img/fondo.jpg);
     background-position: center center;
